@@ -5,12 +5,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mail</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/mail.css">
+        <title>Mail Checker</title>
     </head>
 
     <body>
-        <p id="mail"></p>
-        <p id="conferma"></p>
+        <div class="container">
+            <div class="mail-checker">
+                <h1>
+                    <i class="fab fa-mailchimp"></i>
+                    Email Checker
+                    <i class="fab fa-mailchimp"></i>
+                </h1>
+                <p class="item">Email:
+                    <span id="mail"></span>
+                </p>
+                <p class="item">Stato:
+                    <span id="conferma"></span>
+                </p>
+            </div>
+        </div>
 
         <script src="js/mail.js"></script>
     </body>
