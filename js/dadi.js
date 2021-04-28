@@ -5,26 +5,26 @@
 var sceltaUtente = Math.floor((Math.random() * 6) + 1);
 document.getElementById("scelta-utente").innerHTML = sceltaUtente;
 document.getElementById("scelta-utente").style.color = "yellow";
-console.log(sceltaUtente);
+// console.log(sceltaUtente);
 
 var sceltaPc = Math.floor((Math.random() * 6) + 1);
 document.getElementById("scelta-pc").innerHTML = sceltaPc;
 document.getElementById("scelta-pc").style.color = "yellow";
-console.log(sceltaPc);
+// console.log(sceltaPc);
 
 // 2. confrontare le scelte e decretare il vincitore, o un pareggio
 if (sceltaUtente > sceltaPc) {
     document.getElementById("risultato").innerHTML = "Hai vinto!";
     document.getElementById("risultato").style.color = "green";
-    console.log("hai vinto");
+    // console.log("hai vinto");
 } else if (sceltaUtente == sceltaPc) {
     document.getElementById("risultato").innerHTML = "Pareggio!";
     document.getElementById("risultato").style.color = "grey";
-    console.log("pareggio");
+    // console.log("pareggio");
 } else {
     document.getElementById("risultato").innerHTML = "Hai perso!";
     document.getElementById("risultato").style.color = "red";
-    console.log("hai perso");
+    // console.log("hai perso");
 }
 
 
