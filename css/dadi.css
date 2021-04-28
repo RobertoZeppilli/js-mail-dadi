@@ -21,6 +21,7 @@ h1 {
     background-color: black;
     padding: 50px;
     border-radius: 10px;
+    text-align: left;
 }
 
 .dadi {
@@ -32,4 +33,9 @@ h1 {
     padding: 20px 0;
     color: #fff;
     font-size: 2rem;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
 }
